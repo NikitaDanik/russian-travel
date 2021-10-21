@@ -1,9 +1,9 @@
 .place {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2,);
-    min-width: 984px;  /* MAX*/
-    min-height: 660px; /* MAX*/
+    
+    max-width: 984px;  
+    max-height: 660px; 
     margin-left: 148px;
     margin-right: 148px;
 
