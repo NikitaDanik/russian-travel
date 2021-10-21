@@ -1,7 +1,4 @@
 .place__website {
-    margin-left: 29px;
-    margin-top: 106px;
+    align-self: flex-end;
     max-width: 456px;
-
-    border: 1px red solid;
 }
