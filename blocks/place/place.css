@@ -1,0 +1,8 @@
+.place {
+    min-width: 984px;  /* MAX*/
+    min-height: 660px; /* MAX*/
+    margin-left: 148px;
+    margin-right: 148px;
+
+    border: 1px red solid;
+}
