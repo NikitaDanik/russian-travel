@@ -1,5 +1,8 @@
 .lead {
-    margin-top: 56px;
-    margin-left: 148px;
-    margin-right: 148px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 296px);
+    padding-top: 56px;
+    padding-left: 148px;
+    padding-right: 148px;
 }
