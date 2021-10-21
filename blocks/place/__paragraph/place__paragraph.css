@@ -1,4 +1,4 @@
-.place__paragraph-first {
+.place__paragraph {
     margin-top: 0;
     max-width: 484px;
     max-height: 145px;
@@ -8,5 +8,11 @@
     font-weight: 400px;
     color: #FFFFFF;
 
-    border: 1PX RED SOLID;
+    border: 1px red solid;
+}
+
+.place__paragraph:last-of-type {
+    max-height: 203px;
+    margin-top: 26px;
+    
 }

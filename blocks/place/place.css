@@ -1,11 +1,9 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    
+    grid-template-columns: 460px 1fr;
+    grid-gap: 48px 40px;
     max-width: 984px;  
     max-height: 660px; 
-    margin-left: 148px;
-    margin-right: 148px;
-
-    border: 1px red solid;
+    margin: auto;
+    margin-bottom: 80px;
 }
