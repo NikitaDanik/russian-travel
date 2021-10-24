@@ -59,3 +59,5 @@
 /** FOOTER **/
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__author/footer__author.css);
