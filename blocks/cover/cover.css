@@ -1,5 +1,10 @@
 .cover {
     margin-top: 92px;
-
+    width: 100%;
+    aspect-ratio: 1.6;
+    grid-area: cover;
+    background-image: url('../../../sprint-3-images/cover-trains.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 1px red solid;
 }
