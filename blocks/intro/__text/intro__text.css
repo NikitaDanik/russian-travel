@@ -6,15 +6,3 @@
     font-weight: 400;
     color: #FFFFFF;
 }
-
-@media screen and (max-width: 1023px) {
-    .intro__text {
-        max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .intro__text {
-        max-width: 288px;
-    }
-}
