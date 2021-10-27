@@ -3,8 +3,18 @@
     justify-content: space-between;
     align-items: baseline;
     max-width: 1184px;
-    max-height: 18px;
-    padding-top: 92px;
-    padding-bottom: 24px;
+    padding: 92px 0 24px;
     margin: 0px 48px;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer {
+        padding: 88px 24px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 64px 118px 24px 16px;
+    }
 }
