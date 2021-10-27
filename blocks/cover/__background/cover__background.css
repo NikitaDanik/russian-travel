@@ -26,7 +26,7 @@
     z-index: -1;    
 }
 
-.cover__background:hover:before{
+.cover__background:hover:before {
     opacity: 0.8;
 }
 

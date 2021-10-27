@@ -3,18 +3,18 @@
     justify-content: space-between;
     align-items: baseline;
     max-width: 1184px;
-    padding: 92px 0 24px;
-    margin: 0px 48px;
+    padding: 92px 48px 24px;
 }
 
 @media screen and (max-width: 1023px) {
     .footer {
-        margin: 88px 24px 0;
+        padding: 88px 24px 0;
     }
 }
 
 @media screen and (max-width: 767px) {
     .footer {
-        margin: 64px 118px 24px 16px;
+        flex-direction: column;
+        padding: 64px 118px 24px 16px;
     }
 }
