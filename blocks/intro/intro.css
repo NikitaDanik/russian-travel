@@ -1,5 +1,22 @@
 .intro {
-    margin-top: 92px;
-    margin-left: 148px;
-    margin-right: 442px;
+    padding-top: 92px;
+    padding-left: 148px;
+}
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        padding: 48px 48px 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        padding: 88px 24px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        padding: 64px 16px 0;
+    }
 }
