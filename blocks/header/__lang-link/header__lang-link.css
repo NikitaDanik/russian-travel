@@ -9,6 +9,10 @@
     color: #FFFFFF;
 }
 
+.header__lang-link:not(:last-child) {
+    margin: 0px 18px 0px 0px;
+}
+
 .header__lang-link:hover {
     opacity: .5;
   }
