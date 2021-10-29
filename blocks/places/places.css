@@ -1,21 +1,29 @@
 .places {
     padding: 92px 148px 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 80px;  
 }
 
 @media screen and (max-width: 1279px) {
     .places {
         padding: 90px 48px 0;
+        grid-gap: 80px; 
     }
 }
 
 @media screen and (max-width: 1023px) {
     .places {
         padding: 88px 24px 0;
+        grid-gap: 73px; 
     }
 }
 
 @media screen and (max-width: 767px) {
     .places {
         padding: 64px 0 0;
+        grid-gap: 50px; 
     }
 }

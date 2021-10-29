@@ -5,7 +5,14 @@
     font-style: normal;
     font-weight: normal;
     color: #FFFFFF;
+    transition-property: opacity;
+    transition-duration: .3s;
 }
+
+.footer__link:hover {
+    opacity: .5;
+}
+
 
 @media screen and (max-width: 767px) {
     .footer__link {

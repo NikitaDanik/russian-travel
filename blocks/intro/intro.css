@@ -1,6 +1,10 @@
 .intro {
-    padding-top: 92px;
-    padding-left: 148px;
+    width: 100%;
+    padding: 92px 442px 0 148px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 1279px) {

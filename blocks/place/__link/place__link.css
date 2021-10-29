@@ -3,4 +3,10 @@
     line-height: 22px;
     font-style: normal;
     color: #FFFFFF;
+    transition-property: opacity;
+    transition-duration: .3s;
+}
+
+.place__link:hover {
+    opacity: .5;
 }
