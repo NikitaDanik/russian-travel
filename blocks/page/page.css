@@ -1,4 +1,13 @@
 .page {
-    font-family: 'Inter';
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 28px 0px 24px;
+    box-sizing: border-box;
     background: #2A2C2F;
 }
+
+@media screen and (max-width: 320px) {
+    .page {
+      padding: 16px 0 24px;
+    }
+  }
