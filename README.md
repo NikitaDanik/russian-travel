@@ -10,3 +10,6 @@
 
 1. HTML;
 2. CSS
+
+## Инструкция по установке:
+Необходимо запустить проект при помощи GitHub из [репозитария] (https://nikitadanik.github.io/russian-travel/index.html)
