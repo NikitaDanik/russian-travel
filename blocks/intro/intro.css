@@ -10,20 +10,20 @@
 }
 
 @media screen and (max-width: 1279px) {
-    .intro {
-      max-width: 928px;
-    }
+  .intro {
+    max-width: 928px;
   }
-  
-  @media screen and (max-width: 1023px) {
-    .intro {
-      padding-top: 88px;    
-    }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding-top: 88px;    
   }
-  
-  @media screen and (max-width: 767px) {
-    .intro {
-      box-sizing: border-box;
-      padding: 64px 16px 0;
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    box-sizing: border-box;
+    padding: 64px 16px 0;
   }
+}
